@@ -1,0 +1,37 @@
+@font-face {
+    font-family: Montserrat;
+    src: url("../fonts/Montserrat/static/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: Literata;
+    src: url("../fonts/Literata/static/Literata/Literata-Regular.ttf");
+}
+
+body h2,
+main p:nth-of-type(1) {
+    color: red;
+
+}
+
+body h2 {
+    font-family: Montserrat;
+}
+
+body p {
+    font-family: Literata;
+}
+
+body img {
+    border: 5px solid green;
+    border-radius: 100%;
+}
+
+body div {
+    background: grey;
+}
+
+body div p:nth-of-type(1) {
+
+    color: green
+}
